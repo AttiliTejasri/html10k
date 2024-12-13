@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+            background-color:rgb(20, 21, 22);
+            width:100%;
+            height: 100%;
+        }
+        .img1{
+            display:inline-block;
+            background-color:rgb(244, 160, 160);
+            width:450px;
+            height:220px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        #el1{
+            border-radius:30px;
+            background-color: black;
+            color:white;
+            width:100px;
+            height:36px;
+        }
+        .img2{
+            display:inline-block;
+            background-color:rgb(240, 240, 102);
+            width:450px;
+            height:220px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        #el2{
+            border-radius:30px;
+            background-color: black;
+            color:white;
+            width:150px;
+            height:36px;
+        }
+        .img3{
+            display:inline-block;
+            background-color:rgb(253, 239, 239);
+            width:450px;
+            height:220px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        #el3{
+            border-radius:30px;
+            background-color: black;
+            color:white;
+            width:150px;
+            height:36px;
+        }
+        .img4{
+            display:inline-block;
+            background-color:lightcyan;
+            width:450px;
+            height:220px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        #el4{
+            border-radius:30px;
+            background-color: black;
+            color:white;
+            width:150px;
+            height:36px;
+        }
+        .img5{
+            display:inline-block;
+            background-color:lightskyblue;
+            width:450px;
+            height:220px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        #el5{
+            border-radius:30px;
+            background-color: black;
+            color:white;
+            width:150px;
+            height:36px;
+        }
+        .img6{
+            display:inline-block;
+            background-color:lightgrey;
+            width:450px;
+            height:220px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        #el6{
+            border-radius:30px;
+            background-color: black;
+            color:white;
+            width:150px;
+            height:36px;
+        }
+        .img7{
+            display:inline-block;
+            background-color:rgb(241, 176, 176);
+            width:450px;
+            height:140px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        .img8{
+            display:inline-block;
+            background-color:rgb(250, 252, 108);
+            width:450px;
+            height:140px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        .img9{
+            display:inline-block;
+            background-color:rgb(247, 227, 227);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px; 
+        }
+        .img10{
+            display:inline-block;
+            background-color:rgb(241, 176, 176);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 38px;  
+        }
+        .img11{
+            display:inline-block;
+            background-color:rgb(62, 198, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img12{
+            display:inline-block;
+            background-color:lightsalmon;
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img13{
+            display:inline-block;
+            background-color:rgb(237, 252, 123);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img14{
+            display:inline-block;
+            background-color:rgb(245, 249, 250);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img15{
+            display:inline-block;
+            background-color:rgb(190, 231, 248);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img16{
+            display:inline-block;
+            background-color:rgb(62, 198, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img17{
+            display:inline-block;
+            background-color:lightpink;
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img18{
+            display:inline-block;
+            background-color:rgb(221, 252, 107);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img19{
+            display:inline-block;
+            background-color:rgb(238, 248, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img20{
+            display:inline-block;
+            background-color:rgb(197, 234, 249);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img21{
+            display:inline-block;
+            background-color:rgb(62, 198, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img22{
+            display:inline-block;
+            background-color:rgb(249, 136, 153);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img23{
+            display:inline-block;
+            background-color:rgb(246, 255, 125);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img24{
+            display:inline-block;
+            background-color:rgb(246, 249, 250);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img25{
+            display:inline-block;
+            background-color:rgb(209, 241, 253);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img26{
+            display:inline-block;
+            background-color:rgb(62, 198, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img27{
+            display:inline-block;
+            background-color:rgb(252, 164, 177);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img28{
+            display:inline-block;
+            background-color:rgb(224, 251, 101);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img29{
+            display:inline-block;
+            background-color:rgb(240, 246, 249);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img30{
+            display:inline-block;
+            background-color:rgb(185, 231, 250);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img31{
+            display:inline-block;
+            background-color:rgb(62, 198, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img32{
+            display:inline-block;
+            background-color:rgb(254, 165, 179);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img33{
+            display:inline-block;
+            background-color:rgb(216, 248, 73);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img34{
+            display:inline-block;
+            background-color:rgb(245, 250, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img35{
+            display:inline-block;
+            background-color:rgb(181, 224, 241);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img36{
+            display:inline-block;
+            background-color:rgb(62, 198, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img37{
+            display:inline-block;
+            background-color:rgb(254, 161, 175);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img38{
+            display:inline-block;
+            background-color:rgb(213, 244, 100);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img39{
+            display:inline-block;
+            background-color:rgb(212, 238, 249);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img40{
+            display:inline-block;
+            background-color:rgb(231, 245, 250);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img41{
+            display:inline-block;
+            background-color:rgb(62, 198, 252);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img42{
+            display:inline-block;
+            background-color:rgb(241, 139, 154);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;  
+        }
+        .img42{
+            display:inline-block;
+            background-color:rgb(245, 156, 156);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img43{
+            display:inline-block;
+            background-color:rgb(217, 250, 97);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;   
+        }
+        .img44{
+            display:inline-block;
+            background-color:rgb(226, 236, 240);
+            width:200px;
+            height:110px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 51px;    
+        }
+        .img45{
+            display:inline-block;
+            background-color:rgb(241, 176, 176);
+            width:400px;
+            height:140px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+          
+        }
+        .img46{ 
+            display:inline-block;
+            background-color:aqua;
+            width:400px;
+            height:140px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;
+        }
+        .img47{
+            display:inline-block;
+            background-color:lightgray;
+            width:400px;
+            height:140px;
+            text-align: center;r
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;    
+        }
+       
+    .img48{
+        display:inline-block;
+            background-color:lightcoral;
+            width:400px;
+            height:140px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px; 
+        }
+        .img49{
+            background-color:rgb(213, 215, 202);
+            display:inline-block;
+            width:400px;
+            height:140px;
+            text-align: center;
+            padding: 24px 0px opx opx;
+            border-radius: 5px;
+            margin-top: 50px;
+            margin-left: 45px;   
+        }
+    </style>
+</head>
+<body>
+    <div class="img1">
+        <h1>PHP</h1>
+        <p>A web server programmig language</p>
+        <button id="el1">Learn PHP</button>
+    </div>
+    <div class="img2">
+        <h1>jQuery</h1>
+        <p>A web server programming language</p>
+        <button id="el2">Learn jQuery</button>    
+    </div>
+    <div class="img3">
+        <h1>JAVA</h1>
+        <p>A programming language</p>
+        <button id="el3">Learn JAVA</button>
+    </div>
+    <div class="img4">
+        <h1>C++</h1>
+        <p>A programming language</p>
+        <button id="el4">Learn C++</button>
+    </div>
+    <div class="img5">
+        <h1>W3.CSS</h1>
+        <p>A css framework for faster and better responsive web pages</p>
+        <button id="el5">Learn W3.CSS</button>
+    </div>
+    <div class="img6">
+        <h1>Boosterp</h1>
+        <p>A css framework for designing better web pages</p>
+        <button id="el6">Learn Boosterp</button>
+    </div>
+    <div class="img7">
+        <h1>C</h1>
+    </div>
+    <div class="img8">
+        <h1>C#</h1>
+    </div>
+    <div class="img9">
+        <h1>R</h1>
+    </div>
+    <div class="img10">
+        <h1>Kotlin</h1>
+    </div>
+    <div class="img11">
+        <h1>Node.js</h1>
+    </div>
+    <div class="img12">
+        <h1>React</h1>
+    </div>
+    <div class="img13">
+        <h1>JSON</h1>
+    </div>
+    <div class="img14">
+        <h1>VUE</h1>
+    </div>
+    <div class="img15">
+        <h1>MySQL</h1>
+    </div>
+    <div class="img16">
+        <h1>XML</h1>
+    </div>
+    <div class="img17">
+        <h1>Sass</h1>
+    </div>
+    <div class="img18">
+        <h1>Icons</h1>
+    </div>
+    <div class="img19">
+        <h1>RWD</h1>
+    </div>
+    <div class="img20">
+        <h1>Graphics</h1>
+    </div>
+    <div class="img21">
+        <h1>SVG</h1>
+    </div>
+    <div class="img22">
+        <h1>Canvas</h1>
+    </div>
+    <div class="img23">
+        <h1>Raspberry pi</h1>
+    </div>
+    <div class="img24">
+        <h1>Cyber security</h1>
+    </div>
+    <div class="img25">
+        <h1>Colors</h1>
+    </div>
+    <div class="img26">
+        <h1>Git</h1>
+    </div>
+    <div class="img27">
+        <h1>Matplotib</h1>
+    </div>
+    <div class="img28">
+        <h1>NumPy</h1>
+    </div>
+    <div class="img29">
+        <h1>Pandas</h1>
+    </div>
+    <div class="img30">
+        <h1>SciPy</h1>
+    </div>
+    <div class="img31">
+        <h1>ASP</h1>
+    </div>
+    <div class="img32">
+        <h1>AngularJS</h1>
+    </div>
+    <div class="img33">
+        <h1>AppML</h1>
+    </div>
+    <div class="img34">
+        <h1>Go</h1>
+    </div>
+    <div class="img35">
+        <h1>TypeScript</h1>
+    </div>
+    <div class="img36">
+        <h1>Django</h1>
+    </div>
+    <div class="img37">
+        <h1>MongoDB</h1>
+    </div>
+    <div class="img38">
+        <h1>Statistics</h1>
+    </div>
+    <div class="img39">
+        <h1>Data science</h1>
+    </div>
+    <div class="img40">
+        <h1>Typing speed</h1>
+    </div>
+    <div class="img41">
+        <h1>How To</h1>
+    </div>
+    <div class="img42">
+        <h1>Code Game</h1>
+    </div>
+    <div class="img43">
+        <h1>Spaces</h1>
+    </div>
+    <div class="img44">
+        <h1>PostgreSQL</h1>
+    </div>
+    <div class="img45">
+        <h1>Excel</h1>
+    </div>
+    <div class="img46">
+        <h1>DSA</h>
+    </div>
+    <div class="img47">
+        <h1>Machine Learning</h1>
+    </div>
+    <div class="img48">
+        <h1>Aritificial Inteligence</h1>
+        </div>
+
+</body>
+</html>
